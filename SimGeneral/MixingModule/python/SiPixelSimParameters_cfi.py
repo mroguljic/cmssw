@@ -43,6 +43,7 @@ def _modifyPixelDigitizerForRun3( digitizer ):
     digitizer.ThresholdInElectrons_FPix = cms.double(1600.0)
     digitizer.ThresholdInElectrons_BPix = cms.double(1600.0)
     digitizer.ThresholdInElectrons_BPix_L1 = cms.double(2000.0)
+    digitizer.ThresholdInElectrons_BPix_L1_Unflipped = cms.double(2000.0)
     digitizer.ThresholdInElectrons_BPix_L2 = cms.double(1600.0)
 
 SiPixelSimBlock = cms.PSet(
@@ -67,6 +68,7 @@ SiPixelSimBlock = cms.PSet(
     ThresholdInElectrons_FPix = cms.double(3000.0), 
     ThresholdInElectrons_BPix = cms.double(3500.0),
     ThresholdInElectrons_BPix_L1 = cms.double(3500.0),
+    ThresholdInElectrons_BPix_L1_Unflipped = cms.double(3500.0),
     ThresholdInElectrons_BPix_L2 = cms.double(3500.0),
     AddThresholdSmearing = cms.bool(True),
     ThresholdSmearing_FPix = cms.double(210.0),

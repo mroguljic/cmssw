@@ -239,6 +239,9 @@ SiPixelDigitizerAlgorithm::SiPixelDigitizerAlgorithm(const edm::ParameterSet& co
       theThresholdInE_BPix_L1(conf.exists("ThresholdInElectrons_BPix_L1")
                                   ? conf.getParameter<double>("ThresholdInElectrons_BPix_L1")
                                   : theThresholdInE_BPix),
+      theThresholdInE_BPix_L1_Unflipped(conf.exists("ThresholdInElectrons_BPix_L1_Unflipped")
+                                  ? conf.getParameter<double>("ThresholdInElectrons_BPix_L1_Unflipped")
+                                  : theThresholdInE_BPix_L1),
       theThresholdInE_BPix_L2(conf.exists("ThresholdInElectrons_BPix_L2")
                                   ? conf.getParameter<double>("ThresholdInElectrons_BPix_L2")
                                   : theThresholdInE_BPix),
@@ -354,6 +357,7 @@ SiPixelDigitizerAlgorithm::SiPixelDigitizerAlgorithm(const edm::ParameterSet& co
                              << "threshold in electron FPix = " << theThresholdInE_FPix
                              << "threshold in electron BPix = " << theThresholdInE_BPix
                              << "threshold in electron BPix Layer1 = " << theThresholdInE_BPix_L1
+                             << "threshold in electron BPix Layer1 (unflipped) = " << theThresholdInE_BPix_L1_Unflipped
                              << "threshold in electron BPix Layer2 = " << theThresholdInE_BPix_L2 << " "
                              << theElectronPerADC << " " << theAdcFullScale << " The delta cut-off is set to " << tMax
                              << " pix-inefficiency " << AddPixelInefficiency;
@@ -1055,8 +1059,16 @@ void SiPixelDigitizerAlgorithm::digitize(const PixelGeomDetUnit* pixdet,
         if (pixdet->subDetector() == GeomDetEnumerators::SubDetector::PixelBarrel ||
             pixdet->subDetector() == GeomDetEnumerators::SubDetector::P1PXB) {
           if (lay == 1) {
-            thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
-                engine, theThresholdInE_BPix_L1, theThresholdSmearing_BPix_L1);  // gaussian smearing
+            int ladder = tTopo->pxbLadder(detID);
+            //In L1, odd ladders are outer (unflipped)
+            //All outer ladders are unflipped
+            if (ladder % 2 == 1) {
+              thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
+                  engine, theThresholdInE_BPix_L1_Unflipped, theThresholdSmearing_BPix_L1);
+            } else {
+              thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
+                  engine, theThresholdInE_BPix_L1, theThresholdSmearing_BPix_L1);
+            }
           } else if (lay == 2) {
             thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
                 engine, theThresholdInE_BPix_L2, theThresholdSmearing_BPix_L2);  // gaussian smearing
@@ -1069,7 +1081,12 @@ void SiPixelDigitizerAlgorithm::digitize(const PixelGeomDetUnit* pixdet,
         if (pixdet->subDetector() == GeomDetEnumerators::SubDetector::PixelBarrel ||
             pixdet->subDetector() == GeomDetEnumerators::SubDetector::P1PXB) {
           if (lay == 1) {
-            thePixelThresholdInE = theThresholdInE_BPix_L1;
+            int ladder = tTopo->pxbLadder(detID);
+            if (ladder % 2 == 1) {
+              thePixelThresholdInE = theThresholdInE_BPix_L1_Unflipped;
+            } else {
+              thePixelThresholdInE = theThresholdInE_BPix_L1;
+            }
           } else if (lay == 2) {
             thePixelThresholdInE = theThresholdInE_BPix_L2;
           } else {
@@ -1676,6 +1693,7 @@ void SiPixelDigitizerAlgorithm::make_digis(float thePixelThresholdInE,
                               << " pixel threshold FPix" << theThresholdInE_FPix << " "
                               << " pixel threshold BPix" << theThresholdInE_BPix << " "
                               << " pixel threshold BPix Layer1" << theThresholdInE_BPix_L1 << " "
+                              << " pixel threshold BPix Layer1 Unflipped" << theThresholdInE_BPix_L1_Unflipped << " "
                               << " pixel threshold BPix Layer2" << theThresholdInE_BPix_L2 << " "
                               << " List pixels passing threshold ";
 #endif
@@ -2520,8 +2538,14 @@ void SiPixelDigitizerAlgorithm::lateSignalReweight(const PixelGeomDetUnit* pixde
         if (pixdet->subDetector() == GeomDetEnumerators::SubDetector::PixelBarrel ||
             pixdet->subDetector() == GeomDetEnumerators::SubDetector::P1PXB) {
           if (lay == 1) {
-            thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
-                engine, theThresholdInE_BPix_L1, theThresholdSmearing_BPix_L1);  // gaussian smearing
+            int ladder = tTopo->pxbLadder(detID);
+            if (ladder % 2 == 1) {
+              thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
+                  engine, theThresholdInE_BPix_L1_Unflipped, theThresholdSmearing_BPix_L1);
+            } else {
+              thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
+                  engine, theThresholdInE_BPix_L1, theThresholdSmearing_BPix_L1);
+            }  // gaussian smearing
           } else if (lay == 2) {
             thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
                 engine, theThresholdInE_BPix_L2, theThresholdSmearing_BPix_L2);  // gaussian smearing
@@ -2534,7 +2558,13 @@ void SiPixelDigitizerAlgorithm::lateSignalReweight(const PixelGeomDetUnit* pixde
         if (pixdet->subDetector() == GeomDetEnumerators::SubDetector::PixelBarrel ||
             pixdet->subDetector() == GeomDetEnumerators::SubDetector::P1PXB) {
           if (lay == 1) {
-            thePixelThresholdInE = theThresholdInE_BPix_L1;
+            int ladder = tTopo->pxbLadder(detID);
+            if (ladder % 2 == 1){
+              thePixelThresholdInE = theThresholdInE_BPix_L1_Unflipped;
+            }
+            else{
+              thePixelThresholdInE = theThresholdInE_BPix_L1;
+            } // no smearing
           } else if (lay == 2) {
             thePixelThresholdInE = theThresholdInE_BPix_L2;
           } else {
@@ -2647,9 +2677,16 @@ void SiPixelDigitizerAlgorithm::lateSignalReweight(const PixelGeomDetUnit* pixde
         if (pixdet->subDetector() == GeomDetEnumerators::SubDetector::PixelBarrel ||
             pixdet->subDetector() == GeomDetEnumerators::SubDetector::P1PXB) {
           if (lay == 1) {
-            thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
-                engine, theThresholdInE_BPix_L1, theThresholdSmearing_BPix_L1);  // gaussian smearing
-          } else if (lay == 2) {
+            int ladder = tTopo->pxbLadder(detID);
+            if (ladder % 2 == 1) {
+              thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
+                  engine, theThresholdInE_BPix_L1_Unflipped, theThresholdSmearing_BPix_L1);
+            } else {
+              thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
+                  engine, theThresholdInE_BPix_L1, theThresholdSmearing_BPix_L1);
+            }  // gaussian smearing
+          }
+            else if (lay == 2) {
             thePixelThresholdInE = CLHEP::RandGaussQ::shoot(
                 engine, theThresholdInE_BPix_L2, theThresholdSmearing_BPix_L2);  // gaussian smearing
           } else {
@@ -2661,7 +2698,12 @@ void SiPixelDigitizerAlgorithm::lateSignalReweight(const PixelGeomDetUnit* pixde
         if (pixdet->subDetector() == GeomDetEnumerators::SubDetector::PixelBarrel ||
             pixdet->subDetector() == GeomDetEnumerators::SubDetector::P1PXB) {
           if (lay == 1) {
-            thePixelThresholdInE = theThresholdInE_BPix_L1;
+            int ladder = tTopo->pxbLadder(detID);
+            if (ladder % 2 == 1) {
+              thePixelThresholdInE = theThresholdInE_BPix_L1_Unflipped;
+            } else {
+              thePixelThresholdInE = theThresholdInE_BPix_L1;
+            }
           } else if (lay == 2) {
             thePixelThresholdInE = theThresholdInE_BPix_L2;
           } else {

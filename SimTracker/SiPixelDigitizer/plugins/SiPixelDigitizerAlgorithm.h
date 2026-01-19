@@ -322,6 +322,7 @@ private:
   const float theThresholdInE_FPix;     // Pixel threshold in electrons FPix.
   const float theThresholdInE_BPix;     // Pixel threshold in electrons BPix.
   const float theThresholdInE_BPix_L1;  // In case the BPix layer1 gets a different threshold
+  const float theThresholdInE_BPix_L1_Unflipped;  // In case the BPIX L1 unflipped (even) ladders need a different threshold
   const float theThresholdInE_BPix_L2;  // In case the BPix layer2 gets a different threshold
 
   const double theThresholdSmearing_FPix;
