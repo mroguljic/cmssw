@@ -26,7 +26,11 @@ namespace siPixelUtils {
                                  float pitchfraction_last,
                                  float eff_charge_cut_low,   //!< Use edge if > w_eff  &&&
                                  float eff_charge_cut_high,  //!< Use edge if < w_eff  &&&
-                                 float size_cut              //!< Use edge when size == cuts
+                                 float size_cut,             //!< Use edge when size == cuts
+                                 int& algflag,               // 0 use std alg, 1 use 1-sided alg
+                                                             // 2 choose from delta len cut, returns 0 or 1
+                                 float delta_length_cut      //!< if charge len - cls size > this 
+                                                             //!< (in pix), use one-sided reco
   ) {
     float geom_center = 0.5f * (upper_edge_first_pix + lower_edge_last_pix);
 
@@ -40,16 +44,29 @@ namespace siPixelUtils {
     //--- Width of the clusters minus the edge (first and last) pixels.
     //--- In the note, they are denoted x_F and x_L (and y_F and y_L)
     float w_inner = lower_edge_last_pix - upper_edge_first_pix;  // in cm
+    
+// define the centers of the first last last pixel coordinates
+    float x1 = upper_edge_first_pix - 0.5*pitchfraction_first*pitch;
+    float x2 = lower_edge_last_pix + 0.5*pitchfraction_last*pitch;
+
 
     //--- Predicted charge width from geometry
     float w_pred = theThickness * cot_angle  // geometric correction (in cm)
                    - lorentz_shift;          // (in cm) &&& check fpix!
+                   
+    //--- Calculate the hit position from the one-sided algorithm
+    float hit_pos_1sided = x1 + 0.5*w_pred;
+    if(w_pred < 0.f) {
+       hit_pos_1sided = x2 + 0.5*w_pred;
+    }
 
+    //--- Now the standard generic algorithm
     //--- Total length of the two edge pixels (first+last)
     float sum_of_edge = pitchfraction_first + pitchfraction_last;
 
     //--- The `effective' charge width -- particle's path in first and last pixels only
     float w_eff = std::abs(w_pred) - w_inner;
+    float delta = w_eff - 0.5*sum_of_edge*pitch;
 
     //--- If the observed charge width is inconsistent with the expectations
     //--- based on the track, do *not* use w_pred-w_innner.  Instead, replace
@@ -58,7 +75,7 @@ namespace siPixelUtils {
     //
     //  bool usedEdgeAlgo = false;
     if ((size >= size_cut) || ((w_eff / pitch < eff_charge_cut_low) | (w_eff / pitch > eff_charge_cut_high))) {
-      w_eff = pitch * 0.5f * sum_of_edge;  // ave. length of edge pixels (first+last) (cm)
+       w_eff = pitch * 0.5f * sum_of_edge;  // ave. length of edge pixels (first+last) (cm)
                                            //  usedEdgeAlgo = true;
     }
 
@@ -70,8 +87,23 @@ namespace siPixelUtils {
     if (q_sum == 0)
       q_sum = 1.0f;
 
-    float hit_pos = geom_center + 0.5f * (q_diff / q_sum) * w_eff;
+    float hit_pos_std = geom_center + 0.5f * (q_diff / q_sum) * w_eff;
 
-    return hit_pos;
+// Now return the appropriate result and flag
+
+    if(algflag == 0) {
+       return hit_pos_std;
+    } else if(algflag == 1) {
+       return hit_pos_1sided;
+    } else {
+      if(delta/pitch < delta_length_cut) {
+         algflag = 0;
+         return hit_pos_std;
+       } else {
+         algflag = 1;
+         return hit_pos_1sided;
+       }
+    }
+
   }
 }  // namespace siPixelUtils

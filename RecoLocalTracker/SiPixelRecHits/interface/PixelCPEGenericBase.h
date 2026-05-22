@@ -31,6 +31,13 @@ public:
     float dy2{};     // CPE Generic y-bias for single double-pixel cluster
     float dx1{};     // CPE Generic x-bias for single single-pixel cluster
     float dx2{};     // CPE Generic x-bias for single double-pixel cluster
+
+    // One-sided algorithm corrections
+    float sigmay1s{};  // CPE Generic y-error for one-sided algorithm
+    float deltay1s{};  // CPE Generic y-bias for one-sided algorithm
+    
+    // Algorithm selection flag
+    bool useOneSidedCorrection_{false};  // true if one-sided algorithm used for Y
   };
 
   PixelCPEGenericBase(edm::ParameterSet const& conf,

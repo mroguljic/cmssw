@@ -55,6 +55,8 @@ PixelCPEGeneric::PixelCPEGeneric(edm::ParameterSet const& conf,
 
   isPhase2_ = conf.getParameter<bool>("isPhase2");
 
+  algoFlag_ = conf.getParameter<int>("AlgoFlag"); // 0: use standard algorithm, 1: use one-sided algorithm, 2: choose between the two based on delta len cut
+
   // For cosmics force the use of simple errors
   if ((DoCosmics_))
     useErrorsFromTemplates_ = false;
@@ -159,7 +161,9 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
                                         theClusterParam.sx1,
                                         theClusterParam.dx1,
                                         theClusterParam.sx2,
-                                        theClusterParam.dx2);
+                                        theClusterParam.dx2,
+                                        theClusterParam.sigmay1s,
+                                        theClusterParam.deltay1s);
 
     // now use the charge widths stored in the new generic template headers (change to the
     // incorrect sign convention of the base class)
@@ -179,6 +183,7 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
     theClusterParam.deltay = theClusterParam.deltay * micronsToCm;
     theClusterParam.dy1 = theClusterParam.dy1 * micronsToCm;
     theClusterParam.dy2 = theClusterParam.dy2 * micronsToCm;
+    theClusterParam.deltay1s = theClusterParam.deltay1s * micronsToCm;
 
     theClusterParam.sigmax = theClusterParam.sigmax * micronsToCm;
     theClusterParam.sx1 = theClusterParam.sx1 * micronsToCm;
@@ -187,6 +192,7 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
     theClusterParam.sigmay = theClusterParam.sigmay * micronsToCm;
     theClusterParam.sy1 = theClusterParam.sy1 * micronsToCm;
     theClusterParam.sy2 = theClusterParam.sy2 * micronsToCm;
+    theClusterParam.sigmay1s = theClusterParam.sigmay1s * micronsToCm;
 
   }  // if ( useErrorsFromTemplates_ )
   else {
@@ -252,6 +258,7 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
     cout << "\t >>> Generic:: processing X" << endl;
 #endif
 
+  int algflagX = 0;  // Always use standard algorithm for X (clusters not long in X direction)
   float xPos = siPixelUtils::generic_position_formula(
       theClusterParam.theCluster->sizeX(),
       q_f_X,
@@ -266,7 +273,8 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
       theDetParam.theTopol->pixelFractionInX(theClusterParam.theCluster->maxPixelRow()),
       the_eff_charge_cut_lowX,
       the_eff_charge_cut_highX,
-      the_size_cutX);  // cut for eff charge width &&&
+      the_size_cutX,
+      algflagX);
 
   // apply the lorentz offset correction
   xPos = xPos + shiftX;
@@ -276,6 +284,7 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
     cout << "\t >>> Generic:: processing Y" << endl;
 #endif
 
+  int algflagY = algoFlag_;
   float yPos = siPixelUtils::generic_position_formula(
       theClusterParam.theCluster->sizeY(),
       q_f_Y,
@@ -290,10 +299,14 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
       theDetParam.theTopol->pixelFractionInY(theClusterParam.theCluster->maxPixelCol()),
       the_eff_charge_cut_lowY,
       the_eff_charge_cut_highY,
-      the_size_cutY);  // cut for eff charge width &&&
+      the_size_cutY,
+      algflagY);
 
   // apply the lorentz offset correction
   yPos = yPos + shiftY;
+  
+  // Store the algorithm flag for Y in the cluster parameters for later use in error calculation
+  theClusterParam.useOneSidedCorrection_ = (algflagY == 1);
 
   // Apply irradiation corrections
   if (IrradiationBiasCorrection_) {
@@ -328,7 +341,12 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
 
     } else {
       //cout << "Apply correction correction_deltay = " << theClusterParam.deltay << " to yPos = " << yPos << endl;
-      yPos -= theClusterParam.deltay;
+      // Use one-sided corrections if the one-sided algorithm was selected for Y
+      if (theClusterParam.useOneSidedCorrection_) {
+        yPos -= theClusterParam.deltay1s;
+      } else {
+        yPos -= theClusterParam.deltay;
+      }
     }
 
   }  // if ( IrradiationBiasCorrection_ )
@@ -450,4 +468,5 @@ void PixelCPEGeneric::fillPSetDescription(edm::ParameterSetDescription& desc) {
   desc.add<bool>("DoCosmics", false);
   desc.add<bool>("isPhase2", false);
   desc.add<bool>("SmallPitch", false);
+  desc.add<int>("AlgoFlag", 0);
 }

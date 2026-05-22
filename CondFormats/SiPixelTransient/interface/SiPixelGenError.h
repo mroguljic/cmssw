@@ -1,16 +1,16 @@
+//  SiPixelGenError.cc  Version 3.00
 //
-//  SiPixelGenError.h (v2.20)
+//  Object stores Lorentz widths, bias corrections, and errors for the Generic Algorithm
 //
-//  Object to contain Lorentz drift and error information for the Generic Algorithm
-//
-// Created by Morris Swartz on 1/10/2014.
-//
-// Update for Phase 1 FPix, M.S. 1/15/17
+//  Created by Morris Swartz on 10/27/06.
+//  Add some debugging messages. d.k. 5/14
+//  Update for Phase 1 FPix, M.S. 1/15/17
 //  V2.01 - Allow subdetector ID=5 for FPix R2P2, Fix error message
 //  V2.10 - Update the variable size [SI_PIXEL_TEMPLATE_USE_BOOST] option so that it works with VI's enhancements
 //  V2.20 - Add directory path selection to the ascii pushfile method
 //  V2.21 - Move templateStore to the heap, fix variable name in pushfile()
 //  V2.30 - Fix interpolation of IrradiationBias corrections
+//  V3.00 - Add corrections for the one-sided algorithm
 
 // Build the template storage structure from several pieces
 
@@ -48,6 +48,8 @@ struct SiPixelGenErrorEntry {  //!< Basic template entry corresponding to a sing
   float yrmsgen[4];  //!< generic algorithm: average y-rms of reconstruction binned in 4 charge bins
   float xavggen[4];  //!< generic algorithm: average x-bias of reconstruction binned in 4 charge bins
   float xrmsgen[4];  //!< generic algorithm: average x-rms of reconstruction binned in 4 charge bins
+  float yavgg1s[4];  //!< one-sided algorithm: average x-bias of reconstruction binned in 4 charge bins
+  float yrmsg1s[4];  //!< one-sided algorithm: average x-rms of reconstruction binned in 4 charge bins
 };
 
 struct SiPixelGenErrorHeader {  //!< template header structure
@@ -73,6 +75,7 @@ struct SiPixelGenErrorHeader {  //!< template header structure
   float xsize;                  //!< pixel size (for future use in upgraded geometry)
   float ysize;                  //!< pixel size (for future use in upgraded geometry)
   float zsize;                  //!< pixel size (for future use in upgraded geometry)
+  float Dycut;                  //!< difference between expected and obs cluster side for 1-sided reco
 };
 
 struct SiPixelGenErrorStore {  //!< template storage structure
@@ -157,7 +160,32 @@ public:
            float& sx1,
            float& dx1,
            float& sx2,
-           float& dx2);
+           float& dx2,
+           float& sigmay1s,
+           float& deltay1s
+           );
+
+  int qbin(int id,
+           float cotalpha,
+           float cotbeta,
+           float locBz,
+           float locBx,
+           float qclus,
+           bool irradiationCorrections,
+           int& pixmx,
+           float& sigmay,
+           float& deltay,
+           float& sigmax,
+           float& deltax,
+           float& sy1,
+           float& dy1,
+           float& sy2,
+           float& dy2,
+           float& sx1,
+           float& dx1,
+           float& sx2,
+           float& dx2
+           );
 
   // Overload to provide backward compatibility
 
@@ -179,7 +207,31 @@ public:
            float& sx1,
            float& dx1,
            float& sx2,
-           float& dx2);
+           float& dx2,
+           float& sigmay1s,
+           float& deltay1s
+           );
+
+  int qbin(int id,
+           float cotalpha,
+           float cotbeta,
+           float locBz,
+           float locBx,
+           float qclus,
+           float& pixmx,
+           float& sigmay,
+           float& deltay,
+           float& sigmax,
+           float& deltax,
+           float& sy1,
+           float& dy1,
+           float& sy2,
+           float& dy2,
+           float& sx1,
+           float& dx1,
+           float& sx2,
+           float& dx2
+           );
   // Overloaded method to provide only the LA parameters
   int qbin(int id);
 
@@ -202,6 +254,8 @@ public:
   float xsize() { return xsize_; }  //!< pixel x-size (microns)
   float ysize() { return ysize_; }  //!< pixel y-size (microns)
   float zsize() { return zsize_; }  //!< pixel z-size or thickness (microns)
+  float Dycut() { return Dycut_; }  //!< difference between expected and observed cluster y-size
+
 
 private:
   // Keep current template interpolaion parameters
@@ -219,6 +273,7 @@ private:
   float xsize_;      //!< Pixel x-size
   float ysize_;      //!< Pixel y-size
   float zsize_;      //!< Pixel z-size (thickness)
+  float Dycut_;      //!< cluster size difference to use 1-sided reco
 
   // The actual template store is a std::vector container
 

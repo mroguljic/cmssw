@@ -15,7 +15,11 @@ namespace siPixelUtils {
                                  float pitchfraction_last,    //!< true if the last is big
                                  float eff_charge_cut_low,    //!< Use edge if > W_eff (in pix) &&&
                                  float eff_charge_cut_high,   //!< Use edge if < W_eff (in pix) &&&
-                                 float size_cut               //!< Use edge when size == cuts
+                                 float size_cut,               //!< Use edge when size == cuts
+                                 int& algflag,               // 0 use std alg, 1 use 1-sided alg
+                                                             // 2 choose from delta len cut, returns 0 or 1
+                                 float delta_length_cut=2.5  //!< if charge len - cls size > this 
+                                                             //!< (in pix), use one-sided reco
   );
 }  // namespace siPixelUtils
 

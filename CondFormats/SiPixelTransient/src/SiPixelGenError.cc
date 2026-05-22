@@ -1,5 +1,5 @@
 //
-//  SiPixelGenError.cc  Version 2.30
+//  SiPixelGenError.cc  Version 3.00
 //
 //  Object stores Lorentz widths, bias corrections, and errors for the Generic Algorithm
 //
@@ -11,6 +11,8 @@
 //  V2.20 - Add directory path selection to the ascii pushfile method
 //  V2.21 - Move templateStore to the heap, fix variable name in pushfile()
 //  V2.30 - Fix interpolation of IrradiationBias corrections
+//  V3.00 - Add corrections for the one-sided algorithm
+
 
 //#include <stdlib.h>
 //#include <stdio.h>
@@ -119,6 +121,24 @@ bool SiPixelGenError::pushfile(int filenum, std::vector<SiPixelGenErrorStore>& p
       return false;
     }
 
+    if (theCurrentTemp.head.templ_version < code_version) {
+      LOGERROR("SiPixelGenError") << "code expects version " << code_version << ", no GenError load" << ENDL;
+      return false;
+    }
+
+    bool onesided = false;
+    if (theCurrentTemp.head.templ_version >= 4) {
+        in_file >> theCurrentTemp.head.Dycut;
+        if (in_file.fail()) {
+           LOGERROR("SiPixelGenError") << "Error reading DYcut, no GenError load" << ENDL;
+           return false;
+        }
+        onesided = true;
+    } else {
+        theCurrentTemp.head.Dycut = 100;
+    }
+
+
     LOGINFO("SiPixelGenError") << "GenError ID = " << theCurrentTemp.head.ID << ", GenError Version "
                                << theCurrentTemp.head.templ_version << ", Bfield = " << theCurrentTemp.head.Bfield
                                << ", NTy = " << theCurrentTemp.head.NTy << ", NTyx = " << theCurrentTemp.head.NTyx
@@ -133,12 +153,8 @@ bool SiPixelGenError::pushfile(int filenum, std::vector<SiPixelGenErrorStore>& p
                                << ", Q/Q_avg fractions for Qbin defs " << theCurrentTemp.head.fbin[0] << ", "
                                << theCurrentTemp.head.fbin[1] << ", " << theCurrentTemp.head.fbin[2]
                                << ", pixel x-size " << theCurrentTemp.head.xsize << ", y-size "
-                               << theCurrentTemp.head.ysize << ", zsize " << theCurrentTemp.head.zsize << ENDL;
-
-    if (theCurrentTemp.head.templ_version < code_version) {
-      LOGERROR("SiPixelGenError") << "code expects version " << code_version << ", no GenError load" << ENDL;
-      return false;
-    }
+                               << theCurrentTemp.head.ysize << ", zsize " << theCurrentTemp.head.zsize 
+                               << ", Dycut " << theCurrentTemp.head.Dycut << ENDL;
 
 #ifdef SI_PIXEL_TEMPLATE_USE_BOOST
 
@@ -205,6 +221,14 @@ bool SiPixelGenError::pushfile(int filenum, std::vector<SiPixelGenErrorStore>& p
                                       << theCurrentTemp.enty[i].runnum << ENDL;
           return false;
         }
+        if(onesided) {
+           in_file >> theCurrentTemp.enty[i].yavgg1s[j] >> theCurrentTemp.enty[i].yrmsg1s[j];
+           if (in_file.fail()) {
+             LOGERROR("SiPixelGenError") << "Error reading file 14a, no GenError load, run # "
+                                      << theCurrentTemp.enty[i].runnum << ENDL;
+             return false;
+           }
+        }
       }
     }
 
@@ -255,6 +279,13 @@ bool SiPixelGenError::pushfile(int filenum, std::vector<SiPixelGenErrorStore>& p
             LOGERROR("SiPixelGenError") << "Error reading file 30a, no GenError load, run # "
                                         << theCurrentTemp.entx[k][i].runnum << ENDL;
             return false;
+          }
+          if(onesided) {
+             in_file >> theCurrentTemp.entx[k][i].yavgg1s[j] >> theCurrentTemp.entx[k][i].yrmsg1s[j];
+             if (in_file.fail()) {LOGERROR("SiPixelGenError") << "Error reading file 30a, no GenError load, run # "
+                                        << theCurrentTemp.entx[k][i].runnum << ENDL;
+                return false;
+             }
           }
         }
       }
@@ -336,6 +367,25 @@ bool SiPixelGenError::pushfile(const SiPixelGenErrorDBObject& dbobject, std::vec
       return false;
     }
 
+
+    if (theCurrentTemp.head.templ_version < code_version) {
+      LOGERROR("SiPixelGenError") << "code expects version " << code_version << ", no GenError load" << ENDL;
+      return false;
+    }
+
+    bool onesided = false;
+    if (theCurrentTemp.head.templ_version >= 4) {
+        db >> theCurrentTemp.head.Dycut;
+      if (db.fail()) {
+           LOGERROR("SiPixelGenError") << "Error reading DYcut, no GenError load" << ENDL;
+           return false;
+        }
+        onesided = true;
+    } else {
+        theCurrentTemp.head.Dycut = 100;
+    }
+
+
     LOGINFO("SiPixelGenError") << "GenError ID = " << theCurrentTemp.head.ID << ", GenError Version "
                                << theCurrentTemp.head.templ_version << ", Bfield = " << theCurrentTemp.head.Bfield
                                << ", NTy = " << theCurrentTemp.head.NTy << ", NTyx = " << theCurrentTemp.head.NTyx
@@ -350,7 +400,8 @@ bool SiPixelGenError::pushfile(const SiPixelGenErrorDBObject& dbobject, std::vec
                                << ", Q/Q_avg fractions for Qbin defs " << theCurrentTemp.head.fbin[0] << ", "
                                << theCurrentTemp.head.fbin[1] << ", " << theCurrentTemp.head.fbin[2]
                                << ", pixel x-size " << theCurrentTemp.head.xsize << ", y-size "
-                               << theCurrentTemp.head.ysize << ", zsize " << theCurrentTemp.head.zsize << ENDL;
+                               << theCurrentTemp.head.ysize << ", zsize " << theCurrentTemp.head.zsize 
+                               << ", Dycut " << theCurrentTemp.head.Dycut << ENDL;
 
     LOGINFO("SiPixelGenError") << "Loading Pixel GenError - " << theCurrentTemp.head.title << " version "
                                << theCurrentTemp.head.templ_version << " code v." << code_version << ENDL;
@@ -412,6 +463,13 @@ bool SiPixelGenError::pushfile(const SiPixelGenErrorDBObject& dbobject, std::vec
                                       << theCurrentTemp.enty[i].runnum << ENDL;
           return false;
         }
+        if(onesided) {
+             db >> theCurrentTemp.enty[i].yavgg1s[j] >> theCurrentTemp.enty[i].yrmsg1s[j];
+             if (db.fail()) {LOGERROR("SiPixelGenError") << "Error reading file 30a, no GenError load, run # "
+                                        << theCurrentTemp.enty[i].runnum << ENDL;
+                return false;
+             }
+         }
       }
     }
 
@@ -453,6 +511,13 @@ bool SiPixelGenError::pushfile(const SiPixelGenErrorDBObject& dbobject, std::vec
             LOGERROR("SiPixelGenError") << "Error reading file 30a, no GenError load, run # "
                                         << theCurrentTemp.entx[k][i].runnum << ENDL;
             return false;
+          }
+          if(onesided) {
+             db >> theCurrentTemp.entx[k][i].yavgg1s[j] >> theCurrentTemp.entx[k][i].yrmsg1s[j];
+             if (db.fail()) {LOGERROR("SiPixelGenError") << "Error reading file 30a, no GenError load, run # "
+                                        << theCurrentTemp.entx[k][i].runnum << ENDL;
+                return false;
+             }
           }
         }
       }
@@ -526,6 +591,7 @@ int SiPixelGenError::qbin(int id) {
         xsize_ = thePixelTemp_[i].head.xsize;
         ysize_ = thePixelTemp_[i].head.ysize;
         zsize_ = thePixelTemp_[i].head.zsize;
+        Dycut_ = thePixelTemp_[i].head.Dycut;
 
         break;
       }
@@ -554,7 +620,10 @@ int SiPixelGenError::qbin(int id,
                           float& sx1,
                           float& dx1,
                           float& sx2,
-                          float& dx2) {
+                          float& dx2,
+                          float& sigmay1s,
+                          float& deltay1s) 
+                        {
   // Interpolate for a new set of track angles
 
   // Find the index corresponding to id
@@ -578,6 +647,7 @@ int SiPixelGenError::qbin(int id,
         xsize_ = thePixelTemp_[i].head.xsize;
         ysize_ = thePixelTemp_[i].head.ysize;
         zsize_ = thePixelTemp_[i].head.zsize;
+        Dycut_ = thePixelTemp_[i].head.Dycut;
 
         break;
       }
@@ -752,16 +822,22 @@ int SiPixelGenError::qbin(int id,
 
   auto yrmsgen = (1.f - yratio) * thePixelTemp_[index].enty[ilow].yrmsgen[binq] +
                  yratio * thePixelTemp_[index].enty[ihigh].yrmsgen[binq];
+  auto yrmsg1s = (1.f - yratio) * thePixelTemp_[index].enty[ilow].yrmsg1s[binq] +
+                 yratio * thePixelTemp_[index].enty[ihigh].yrmsg1s[binq];
   sy1 = (1.f - yratio) * thePixelTemp_[index].enty[ilow].syone + yratio * thePixelTemp_[index].enty[ihigh].syone;
   sy2 = (1.f - yratio) * thePixelTemp_[index].enty[ilow].sytwo + yratio * thePixelTemp_[index].enty[ihigh].sytwo;
 
   if (irradiationCorrections) {
     auto yavggen = (1.f - yratio) * thePixelTemp_[index].enty[ilow].yavggen[binq] +
                    yratio * thePixelTemp_[index].enty[ihigh].yavggen[binq];
+    auto yavgg1s = (1.f - yratio) * thePixelTemp_[index].enty[ilow].yavgg1s[binq] +
+                   yratio * thePixelTemp_[index].enty[ihigh].yavgg1s[binq];
     if (flip_y) {
       yavggen = -yavggen;
+      yavgg1s = -yavgg1s;
     }
     deltay = yavggen;
+    deltay1s = yavgg1s;
     dy1 = (1.f - yratio) * thePixelTemp_[index].enty[ilow].dyone + yratio * thePixelTemp_[index].enty[ihigh].dyone;
     if (flip_y) {
       dy1 = -dy1;
@@ -853,7 +929,7 @@ int SiPixelGenError::qbin(int id,
   //  Take the errors and bias from the correct charge bin
 
   sigmay = yrmsgen;
-
+  sigmay1s = yrmsg1s;
   sigmax = xrmsgen;
 
   // If the charge is too small (then flag it)
@@ -876,7 +952,8 @@ int SiPixelGenError::qbin(int id,
                           float locBz,
                           float locBx,
                           float qclus,
-                          float& pixmx,
+                          bool irradiationCorrections,
+                          int& pixmx,
                           float& sigmay,
                           float& deltay,
                           float& sigmax,
@@ -889,6 +966,53 @@ int SiPixelGenError::qbin(int id,
                           float& dx1,
                           float& sx2,
                           float& dx2) {
+  float sigmay1s, deltay1s;
+  return SiPixelGenError::qbin(id,
+                               cotalpha,
+                               cotbeta,
+                               locBz,
+                               locBx,
+                               qclus,
+                               irradiationCorrections,
+                               pixmx,
+                               sigmay,
+                               deltay,
+                               sigmax,
+                               deltax,
+                               sy1,
+                               dy1,
+                               sy2,
+                               dy2,
+                               sx1,
+                               dx1,
+                               sx2,
+                               dx2,
+                               sigmay1s,
+                               deltay1s);
+}
+
+int SiPixelGenError::qbin(int id,
+                          float cotalpha,
+                          float cotbeta,
+                          float locBz,
+                          float locBx,
+                          float qclus,
+                          float& pixmx,
+                          float& sigmay,
+                          float& deltay,
+                          float& sigmax,
+                          float& deltax,
+                          float& sy1,
+                          float& dy1,
+                          float& sy2,
+                          float& dy2,
+                          float& sx1,
+                          float& dx1,
+                          float& sx2,
+                          float& dx2,
+                          float& sigmay1s,
+                          float& deltay1s) 
+                 {
   // Interpolate for a new set of track angles
 
   bool irradiationCorrections = true;
@@ -913,7 +1037,65 @@ int SiPixelGenError::qbin(int id,
                                sx1,
                                dx1,
                                sx2,
-                               dx2);
+                               dx2,
+                               sigmay1s,
+                               deltay1s
+                               );
+
+  pixmx = (float)ipixmx;
+
+  return ibin;
+}
+
+int SiPixelGenError::qbin(int id,
+                          float cotalpha,
+                          float cotbeta,
+                          float locBz,
+                          float locBx,
+                          float qclus,
+                          float& pixmx,
+                          float& sigmay,
+                          float& deltay,
+                          float& sigmax,
+                          float& deltax,
+                          float& sy1,
+                          float& dy1,
+                          float& sy2,
+                          float& dy2,
+                          float& sx1,
+                          float& dx1,
+                          float& sx2,
+                          float& dx2) 
+                 {
+  // Interpolate for a new set of track angles
+
+  bool irradiationCorrections = true;
+  int ipixmx, ibin;
+  float sigmay1s, deltay1s;
+
+  ibin = SiPixelGenError::qbin(id,
+                               cotalpha,
+                               cotbeta,
+                               locBz,
+                               locBx,
+                               qclus,
+                               irradiationCorrections,
+                               ipixmx,
+                               sigmay,
+                               deltay,
+                               sigmax,
+                               deltax,
+                               sy1,
+                               dy1,
+                               sy2,
+                               dy2,
+                               sx1,
+                               dx1,
+                               sx2,
+                               dx2,
+                               sigmay1s,
+                               deltay1s
+                               );
 
   pixmx = (float)ipixmx;
 

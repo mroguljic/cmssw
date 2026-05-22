@@ -89,7 +89,7 @@ protected:
   bool IrradiationBiasCorrection_;
   bool isPhase2_;
   bool NoTemplateErrorsWhenNoTrkAngles_;
-
+  int algoFlag_;
   //--- DB Error Parametrization object, new light templates
   std::vector<SiPixelGenErrorStore> thePixelGenError_;
 };
