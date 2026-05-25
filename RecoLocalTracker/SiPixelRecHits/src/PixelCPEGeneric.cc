@@ -69,6 +69,13 @@ PixelCPEGeneric::PixelCPEGeneric(edm::ParameterSet const& conf,
         << "\n\n";
   }
 
+  if (algoFlag_ == 2 && !useErrorsFromTemplates_) {
+      throw cms::Exception("PixelCPEGeneric::PixelCPEGeneric: ")
+          << "\nERROR: useErrorsFromTemplates_ is set to False in PixelCPEGeneric_cfi.py. "
+          << " In this case we need the algoFlag_ to be set to 0 or 1 because the dynamic algorithm relies on the template errors to decide when to switch between the standard and one-sided algorithms."
+          << "\n\n";
+  }
+
   // Use errors from templates or from GenError
   if (useErrorsFromTemplates_) {
     if (LoadTemplatesFromDB_) {  // From DB
@@ -113,6 +120,8 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
   float chargeWidthY = (theDetParam.lorentzShiftInCmY * theDetParam.widthLAFractionY);
   float shiftX = 0.5f * theDetParam.lorentzShiftInCmX;
   float shiftY = 0.5f * theDetParam.lorentzShiftInCmY;
+  const int requestedYAlgo = algoFlag_;
+  float dycut = 0.f;
 
   //cout<<" main la width "<<chargeWidthX<<" "<<chargeWidthY<<endl;
 
@@ -164,6 +173,11 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
                                         theClusterParam.dx2,
                                         theClusterParam.sigmay1s,
                                         theClusterParam.deltay1s);
+
+    if (requestedYAlgo == 2) {
+      // We need the cut only if the dynamic algorithm decides whether to use the one-sided correction or not. If the one-sided algorithm is explicitly requested (algo==1), then we will use the sigmay1s and deltay1s values directly without applying any cut.
+      dycut = gtempl.Dycut();
+    }
 
     // now use the charge widths stored in the new generic template headers (change to the
     // incorrect sign convention of the base class)
@@ -274,7 +288,8 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
       the_eff_charge_cut_lowX,
       the_eff_charge_cut_highX,
       the_size_cutX,
-      algflagX);
+      algflagX,
+      0.f);  // delta_length_cut unused (algflagX==0 always)
 
   // apply the lorentz offset correction
   xPos = xPos + shiftX;
@@ -284,7 +299,8 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
     cout << "\t >>> Generic:: processing Y" << endl;
 #endif
 
-  int algflagY = algoFlag_;
+  // in dynamic algorithm, algflagY will store the **used** algorithm flag for Y in the cluster parameters for later use in error calculation: 0 standard, 1 one-sided 
+  int algflagY = requestedYAlgo;
   float yPos = siPixelUtils::generic_position_formula(
       theClusterParam.theCluster->sizeY(),
       q_f_Y,
@@ -300,12 +316,12 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
       the_eff_charge_cut_lowY,
       the_eff_charge_cut_highY,
       the_size_cutY,
-      algflagY);
+      algflagY,
+      dycut);
 
   // apply the lorentz offset correction
   yPos = yPos + shiftY;
   
-  // Store the algorithm flag for Y in the cluster parameters for later use in error calculation
   theClusterParam.useOneSidedCorrection_ = (algflagY == 1);
 
   // Apply irradiation corrections

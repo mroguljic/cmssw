@@ -18,7 +18,7 @@ namespace siPixelUtils {
                                  float size_cut,               //!< Use edge when size == cuts
                                  int& algflag,               // 0 use std alg, 1 use 1-sided alg
                                                              // 2 choose from delta len cut, returns 0 or 1
-                                 float delta_length_cut=2.5  //!< if charge len - cls size > this 
+                                 float delta_length_cut      //!< if charge len - cls size > this 
                                                              //!< (in pix), use one-sided reco
   );
 }  // namespace siPixelUtils

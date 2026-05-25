@@ -153,7 +153,7 @@ void PixelCPEGenericBase::setXYErrors(float& xerr,
           yerr = theClusterParam.sy2;
         }
       } else {
-        yerr = theClusterParam.sigmay;
+        yerr = theClusterParam.useOneSidedCorrection_ ? theClusterParam.sigmay1s : theClusterParam.sigmay;
       }
     }
 
