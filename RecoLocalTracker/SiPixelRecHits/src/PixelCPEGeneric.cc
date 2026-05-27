@@ -2,7 +2,6 @@
 
 #include "Geometry/CommonDetUnit/interface/PixelGeomDetUnit.h"
 #include "DataFormats/DetId/interface/DetId.h"
-
 // Pixel templates contain the rec hit error parameterizaiton
 #include "CondFormats/SiPixelTransient/interface/SiPixelTemplate.h"
 
@@ -16,6 +15,7 @@
 #include "boost/multi_array.hpp"
 
 #include <iostream>
+#include <sstream>
 using namespace std;
 
 namespace {
@@ -323,6 +323,46 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
   yPos = yPos + shiftY;
   
   theClusterParam.useOneSidedCorrection_ = (algflagY == 1);
+
+  const int ymin = theClusterParam.theCluster->minPixelCol();
+  const int ymax = theClusterParam.theCluster->maxPixelCol();
+  std::vector<int> yProjection(ymax - ymin + 1, 0);
+  for (int i = 0; i != theClusterParam.theCluster->size(); ++i) {
+    auto const& pixel = theClusterParam.theCluster->pixel(i);
+    yProjection[pixel.y - ymin] += pixel.adc;
+  }
+
+  std::ostringstream yProjectionStream;
+  yProjectionStream << "[";
+  for (size_t i = 0; i < yProjection.size(); ++i) {
+    if (i != 0)
+      yProjectionStream << ",";
+    yProjectionStream << yProjection[i];
+  }
+  yProjectionStream << "]";
+
+  const DetId detId = theDetParam.theDet->geographicalId();
+  const int layer = ttopo_.pxbLayer(detId);
+  const int ladder = ttopo_.pxbLadder(detId);
+  const int module = ttopo_.pxbModule(detId);
+  if (layer == 1) {
+    edm::LogPrint("PixelCPEGenericDebug") << "PixelCPEGeneric cluster"
+                                            << " detid=" << detId.rawId()
+                                            << " layer=" << layer
+                                            << " ladder=" << ladder
+                                            << " module=" << module
+                                            << " minRow=" << theClusterParam.theCluster->minPixelRow()
+                                            << " maxRow=" << theClusterParam.theCluster->maxPixelRow()
+                                            << " minCol=" << theClusterParam.theCluster->minPixelCol()
+                                            << " maxCol=" << theClusterParam.theCluster->maxPixelCol()
+                                            << " charge=" << theClusterParam.theCluster->charge()
+                                            << " algoUsedY=" << algflagY
+                                            << " withTrkAngle=" << theClusterParam.with_track_angle
+                                            << " cotbeta=" << theClusterParam.cotbeta
+                                            << " localY=" << yPos
+                                            << " clusterProjectionY=" << yProjectionStream.str()
+                                            << " sizeY=" << theClusterParam.theCluster->sizeY();
+  }
 
   // Apply irradiation corrections
   if (IrradiationBiasCorrection_) {
