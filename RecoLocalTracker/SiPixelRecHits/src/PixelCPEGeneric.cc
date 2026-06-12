@@ -346,7 +346,7 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
   const int ladder = ttopo_.pxbLadder(detId);
   const int module = ttopo_.pxbModule(detId);
   if (layer == 1) {
-    edm::LogPrint("PixelCPEGenericDebug") << "PixelCPEGeneric cluster"
+    std::cout << "PixelCPEGeneric cluster"
                                             << " detid=" << detId.rawId()
                                             << " layer=" << layer
                                             << " ladder=" << ladder
@@ -361,7 +361,7 @@ LocalPoint PixelCPEGeneric::localPosition(DetParam const& theDetParam, ClusterPa
                                             << " cotbeta=" << theClusterParam.cotbeta
                                             << " localY=" << yPos
                                             << " clusterProjectionY=" << yProjectionStream.str()
-                                            << " sizeY=" << theClusterParam.theCluster->sizeY();
+                                            << " sizeY=" << theClusterParam.theCluster->sizeY() << std::endl;
   }
 
   // Apply irradiation corrections
