@@ -1,0 +1,10 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/Utilities"/>
+<use name="FWCore/MessageLogger"/>
+
+<use name="DataFormats/Common"/>
+<use name="DataFormats/SiPixelRawData"/>
+<use name="DataFormats/TrackReco"/>
+
+<flags EDM_PLUGIN="1"/>
