@@ -1,0 +1,2097 @@
+[DebugInactivePixel]: tracksLabel='ALCARECOSiPixelCalSingleMuonTight' refitTracksLabel='TrackRefitter' rawErrLabel='siPixelDigis'
+[DebugInactivePixel]: will check raw-error collection presence on first event.
+[DebugInactivePixel]: rawErr collection ('siPixelDigis') present? 0
+[REFIT] track[0] pt=130.643 eta=0.422596 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=130.643 eta=0.422596 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=39.2895 eta=-0.127628 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=39.289 eta=-0.127628 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=11.4668 eta=1.03575 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=11.4668 eta=1.03575 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=81.872 eta=0.06399 nValidPix=0 nMissingInner=0 nMissingOuter=0
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=INACTIVE det=PixelBarrel layer=3
+[STORED] track[0] pt=81.8826 eta=0.063995 nValidPix=0 nMissingInner=1 nMissingOuter=0
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=28.6109 eta=1.48273 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=28.6112 eta=1.48273 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=31.3378 eta=0.800493 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=31.3378 eta=0.800493 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=25.0818 eta=1.53524 nValidPix=4 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=25.5786 eta=1.535 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=62.7546 eta=-1.79512 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=62.7548 eta=-1.79512 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=38.7379 eta=0.827367 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=38.7379 eta=0.827367 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=35.25 eta=-1.5298 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=35.2501 eta=-1.5298 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=24.5322 eta=1.01639 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=24.5327 eta=1.01639 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=36.855 eta=0.803294 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=36.8612 eta=0.803282 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=31.1358 eta=-1.12649 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=31.1359 eta=-1.12649 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=28.9553 eta=-0.33427 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] track[0] pt=28.9552 eta=-0.334272 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=16.0868 eta=-0.157537 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=16.0867 eta=-0.157539 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=41.4509 eta=-0.251672 nValidPix=3 nMissingInner=2 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+[STORED] track[0] pt=41.4508 eta=-0.251672 nValidPix=3 nMissingInner=2 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+-------------------------
+[REFIT] track[0] pt=30.5596 eta=0.613294 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] track[1] pt=29.851 eta=0.205188 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=30.5592 eta=0.613302 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[1] pt=29.851 eta=0.205188 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=37.274 eta=-0.00805053 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=37.2741 eta=-0.0080504 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=4.36844 eta=-1.80068 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=6 type=VALID det=PixelEndcap layer=3
+[REFIT] track[1] pt=31.0695 eta=0.184406 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=4.40934 eta=-1.80067 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=6 type=VALID det=PixelEndcap layer=3
+[STORED] track[1] pt=31.0697 eta=0.184406 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=30.4614 eta=-0.0672643 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=30.4611 eta=-0.0672701 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=63.4224 eta=1.67466 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=63.4211 eta=1.67466 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=52.3716 eta=0.336282 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=52.3683 eta=0.336278 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=43.2516 eta=1.64218 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=43.2513 eta=1.64218 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=67.7519 eta=-1.51699 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=67.7504 eta=-1.51699 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=41.5607 eta=-0.894585 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=41.5617 eta=-0.894589 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=33.9821 eta=0.382956 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=33.9824 eta=0.382956 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=34.1466 eta=0.400106 nValidPix=4 nMissingInner=0 nMissingOuter=1
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=34.1464 eta=0.400106 nValidPix=4 nMissingInner=0 nMissingOuter=1
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=28.5278 eta=1.68427 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=28.5279 eta=1.68427 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=13.0958 eta=1.53112 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=1
+[STORED] track[0] pt=13.0949 eta=1.53111 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=67.874 eta=-1.50081 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=67.8702 eta=-1.50081 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=29.4651 eta=-0.256367 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=29.4652 eta=-0.256367 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=43.4626 eta=-1.26771 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=43.4628 eta=-1.26771 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=32.3697 eta=0.12451 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=32.3545 eta=0.124524 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=38.1807 eta=-1.57116 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] track[1] pt=36.4787 eta=-0.0507422 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=38.18 eta=-1.57116 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] track[1] pt=36.479 eta=-0.0507421 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=33.0981 eta=0.975909 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=33.0977 eta=0.975909 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=32.9943 eta=-0.931003 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=32.993 eta=-0.930997 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=45.6329 eta=-1.47667 nValidPix=2 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=45.7303 eta=-1.47624 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=29.0325 eta=-0.305538 nValidPix=0 nMissingInner=0 nMissingOuter=0
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=MISSING_INNER_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+[STORED] track[0] pt=29.036 eta=-0.305523 nValidPix=0 nMissingInner=0 nMissingOuter=0
+-------------------------
+[REFIT] track[0] pt=36.6653 eta=-0.242849 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=36.7394 eta=-0.243404 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=26.7938 eta=1.63303 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=26.7938 eta=1.63303 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=45.3709 eta=1.46614 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=44.5301 eta=1.46602 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=27.1215 eta=-0.895252 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=27.1215 eta=-0.895252 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=30.1954 eta=-0.546931 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=30.1952 eta=-0.546931 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=34.062 eta=-1.64268 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+[STORED] track[0] pt=34.431 eta=-1.64354 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=24.3907 eta=1.91143 nValidPix=2 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=24.3908 eta=1.91143 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=3
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=33.804 eta=1.30818 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=33.804 eta=1.30818 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=42.8235 eta=-0.765407 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=42.8227 eta=-0.765407 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=37.423 eta=1.3838 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=37.4226 eta=1.3838 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=30.0456 eta=-0.48904 nValidPix=2 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=29.7926 eta=-0.489244 nValidPix=2 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=48.3781 eta=-1.38607 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=MISSING det=PixelBarrel layer=4
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=48.4665 eta=-1.38638 nValidPix=4 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=40.6833 eta=-1.02568 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=40.6835 eta=-1.02568 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=26.531 eta=0.826586 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=26.531 eta=0.826586 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=35.1423 eta=-2.25049 nValidPix=6 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=35.1425 eta=-2.25049 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=41.7283 eta=-1.74052 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] track[1] pt=41.741 eta=-0.941488 nValidPix=3 nMissingInner=0 nMissingOuter=1
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=41.7285 eta=-1.74052 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] track[1] pt=41.7409 eta=-0.941488 nValidPix=3 nMissingInner=0 nMissingOuter=1
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=41.8696 eta=-1.60256 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=41.8695 eta=-1.60256 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=28.6837 eta=1.87351 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=28.6188 eta=1.87352 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=14.582 eta=0.0454738 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=14.5826 eta=0.045472 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=39.6077 eta=-1.75943 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[REFIT] track[1] pt=29.4852 eta=-0.118529 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=39.6073 eta=-1.75943 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[1] pt=29.4853 eta=-0.118528 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=32.3624 eta=0.358807 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[REFIT] track[1] pt=57.6325 eta=-0.145397 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=32.3623 eta=0.358807 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[1] pt=57.6324 eta=-0.145397 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=55.5529 eta=0.944827 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=55.5491 eta=0.944826 nValidPix=4 nMissingInner=0 nMissingOuter=1
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=46.9592 eta=0.588533 nValidPix=2 nMissingInner=2 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+[REFIT] track[1] pt=47.8864 eta=0.568254 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=46.9567 eta=0.588538 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[STORED] track[1] pt=47.8918 eta=0.568253 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=38.7413 eta=1.91856 nValidPix=8 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=6 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=7 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=38.7386 eta=1.91856 nValidPix=8 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=6 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=7 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=32.8784 eta=0.935485 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=32.8785 eta=0.935485 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=41.7593 eta=0.914399 nValidPix=4 nMissingInner=1 nMissingOuter=2
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=38.6829 eta=0.9152 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=34.0967 eta=1.36417 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=34.0966 eta=1.36417 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=28.6944 eta=-0.842614 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=28.6938 eta=-0.842616 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=33.1148 eta=0.897315 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=33.1151 eta=0.897313 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=37.3301 eta=1.68352 nValidPix=4 nMissingInner=2 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+[STORED] track[0] pt=37.3267 eta=1.68352 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=29.297 eta=-0.100095 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=29.2968 eta=-0.100095 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=35.7148 eta=-2.26484 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=35.7154 eta=-2.26484 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=36.5761 eta=2.19607 nValidPix=4 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=36.576 eta=2.19607 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=3
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=50.8188 eta=0.564061 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=50.8204 eta=0.564062 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=31.1143 eta=0.455814 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=31.1134 eta=0.455808 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=40.7601 eta=-0.968224 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=40.76 eta=-0.968224 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=65.3753 eta=0.0149933 nValidPix=1 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=65.3745 eta=0.0149934 nValidPix=1 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=31.2327 eta=1.18157 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=31.2337 eta=1.18157 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=20.3203 eta=1.41445 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=20.3203 eta=1.41445 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=28.5273 eta=1.28489 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=28.5274 eta=1.28489 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=38.1266 eta=-2.32794 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=38.1269 eta=-2.32795 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=3
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=64.4574 eta=-0.742699 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=64.4581 eta=-0.742699 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=42.0112 eta=-1.95949 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=MISSING det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=42.2896 eta=-1.9596 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=45.6319 eta=-1.11097 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=45.6381 eta=-1.11096 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=29.1227 eta=-0.568026 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] track[1] pt=50.6548 eta=0.849017 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=MISSING det=PixelBarrel layer=4
+[STORED] track[0] pt=29.1227 eta=-0.568026 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[1] pt=50.6545 eta=0.849017 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=MISSING det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=47.5553 eta=0.978721 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=47.5553 eta=0.978721 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=28.7297 eta=-0.873262 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=28.7297 eta=-0.873262 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=42.5518 eta=1.15082 nValidPix=5 nMissingInner=0 nMissingOuter=1
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=42.5514 eta=1.15082 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=38.5598 eta=1.04516 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=38.5604 eta=1.04516 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=33.3489 eta=2.33367 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=33.3534 eta=2.33367 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=189.261 eta=-1.45285 nValidPix=1 nMissingInner=1 nMissingOuter=4
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=2 type=MISSING det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=174.436 eta=-1.48316 nValidPix=1 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=2 type=MISSING det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=40.6075 eta=-0.00584227 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=40.6075 eta=-0.00584221 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=37.4344 eta=0.764976 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=37.4344 eta=0.764976 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=36.1352 eta=0.609223 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=36.1353 eta=0.609224 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=44.2049 eta=-0.679246 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=44.205 eta=-0.679246 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=36.3048 eta=-1.3978 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=36.3048 eta=-1.3978 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=36.4621 eta=0.986017 nValidPix=2 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=36.6116 eta=0.986017 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=34.3364 eta=0.776114 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=34.3364 eta=0.776114 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=29.23 eta=1.06552 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=29.2299 eta=1.06552 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=60.5349 eta=1.37418 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=60.5368 eta=1.37418 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=25.1804 eta=-1.56899 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=25.1746 eta=-1.56898 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=50.6844 eta=1.99441 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=50.6751 eta=1.99441 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=25.234 eta=-1.05248 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=MISSING det=PixelBarrel layer=4
+[STORED] track[0] pt=25.0549 eta=-1.05295 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=41.4795 eta=-1.44638 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=MISSING det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=41.0646 eta=-1.44639 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=40.6164 eta=-1.31504 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] track[1] pt=43.1944 eta=-1.49994 nValidPix=2 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=40.6168 eta=-1.31504 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[1] pt=43.1902 eta=-1.49994 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=26.2472 eta=-2.02523 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=26.3241 eta=-2.02504 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=26.01 eta=-1.15717 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=26.0102 eta=-1.15717 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=60.303 eta=1.1438 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=60.3029 eta=1.1438 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=39.5002 eta=-1.85064 nValidPix=5 nMissingInner=2 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelEndcap layer=1
+[STORED] track[0] pt=39.5264 eta=-1.8506 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=54.9257 eta=2.18604 nValidPix=7 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=6 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=54.9187 eta=2.18602 nValidPix=7 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=6 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=39.7494 eta=1.01613 nValidPix=2 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=39.7494 eta=1.01613 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=52.0839 eta=-2.04653 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=52.0758 eta=-2.04653 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=4.01884 eta=-1.182 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=4.01893 eta=-1.182 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=31.2208 eta=-1.51962 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=31.2181 eta=-1.51962 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=40.6008 eta=1.03791 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=40.5987 eta=1.03791 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=24.3499 eta=-0.94761 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=24.35 eta=-0.94761 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=40.4716 eta=0.291049 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=MISSING det=PixelBarrel layer=4
+[STORED] track[0] pt=40.0727 eta=0.291021 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=59.2229 eta=-0.214584 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=59.2263 eta=-0.214584 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=41.477 eta=0.0971195 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=41.4773 eta=0.0971195 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=52.9337 eta=-1.68448 nValidPix=5 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=52.9341 eta=-1.68448 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=26.7892 eta=1.51654 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=23.782 eta=1.51657 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=43.4249 eta=1.43038 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=43.4252 eta=1.43038 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=57.7937 eta=-0.216783 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=57.794 eta=-0.216783 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=24.4649 eta=-0.65641 nValidPix=0 nMissingInner=0 nMissingOuter=0
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=MISSING_INNER_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+[STORED] track[0] pt=24.4725 eta=-0.656408 nValidPix=0 nMissingInner=0 nMissingOuter=0
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] category=MISSING_INNER_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] category=MISSING_INNER_HITS pos=2 type=INACTIVE det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=25.994 eta=0.150883 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=25.994 eta=0.150883 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=27.2997 eta=0.708483 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] track[1] pt=26.6614 eta=0.267751 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=27.2994 eta=0.708483 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[1] pt=26.6615 eta=0.267751 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=39.3305 eta=1.24784 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=39.3306 eta=1.24784 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=13.5455 eta=1.37101 nValidPix=0 nMissingInner=0 nMissingOuter=0
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=MISSING_INNER_HITS pos=2 type=INACTIVE det=PixelBarrel layer=3
+[STORED] track[0] pt=13.53 eta=1.37094 nValidPix=0 nMissingInner=0 nMissingOuter=0
+-------------------------
+[REFIT] track[0] pt=31.8191 eta=-1.41875 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=31.8194 eta=-1.41875 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=28.9371 eta=-0.165913 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=28.9371 eta=-0.165913 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=35.2503 eta=-0.442135 nValidPix=2 nMissingInner=0 nMissingOuter=1
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=35.2506 eta=-0.442136 nValidPix=2 nMissingInner=0 nMissingOuter=1
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=3.8773 eta=-1.74997 nValidPix=4 nMissingInner=0 nMissingOuter=1
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=3.70101 eta=-1.74994 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=35.6922 eta=1.70553 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=35.6917 eta=1.70553 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=39.8483 eta=0.60902 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=39.7825 eta=0.60907 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=40.8162 eta=1.16141 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=40.8164 eta=1.16141 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=42.0096 eta=0.494675 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=42.1515 eta=0.494743 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=32.0223 eta=1.05311 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=32.0153 eta=1.0531 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=38.9104 eta=1.13929 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=38.911 eta=1.13929 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=45.8324 eta=-1.83218 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] track[1] pt=42.8526 eta=-1.64138 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=MISSING det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=45.8326 eta=-1.83218 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] track[1] pt=42.8682 eta=-1.64124 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=23.8563 eta=1.10531 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=23.8562 eta=1.10531 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=37.1034 eta=-1.57518 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=37.1034 eta=-1.57518 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=27.8854 eta=1.68348 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=27.8854 eta=1.68348 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=43.1558 eta=-2.0906 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=43.1551 eta=-2.0906 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=3
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=36.4814 eta=-1.51754 nValidPix=1 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=MISSING det=PixelEndcap layer=1
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=INACTIVE det=PixelBarrel layer=2
+[STORED] track[0] pt=36.4735 eta=-1.51753 nValidPix=1 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=1 type=MISSING det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=117.201 eta=1.27556 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=117.2 eta=1.27556 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=55.9347 eta=1.14322 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=55.9333 eta=1.14322 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=29.4248 eta=0.156295 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=29.4246 eta=0.156295 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=33.9946 eta=-2.11755 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=33.9979 eta=-2.11755 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=INACTIVE det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=34.3863 eta=-0.949129 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=34.3862 eta=-0.949129 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=38.9961 eta=-1.09057 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=38.9964 eta=-1.09057 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=37.5625 eta=0.8065 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=37.5625 eta=0.806499 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=44.8826 eta=0.744192 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=44.8818 eta=0.744192 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=42.9265 eta=-2.24437 nValidPix=1 nMissingInner=4 nMissingOuter=3
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+[REFIT] category=MISSING_INNER_HITS pos=2 type=MISSING det=PixelEndcap layer=1
+[REFIT] category=MISSING_INNER_HITS pos=3 type=MISSING det=PixelEndcap layer=2
+[STORED] track[0] pt=46.9505 eta=-2.24502 nValidPix=1 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=26.0983 eta=-1.89132 nValidPix=5 nMissingInner=0 nMissingOuter=1
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=26.0984 eta=-1.89132 nValidPix=5 nMissingInner=0 nMissingOuter=1
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=25.4676 eta=-2.01017 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[REFIT] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+[STORED] track[0] pt=25.4676 eta=-2.01017 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=37.0873 eta=2.1467 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=37.0872 eta=2.1467 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=26.6091 eta=0.0887807 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=26.6093 eta=0.0887819 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=24.9542 eta=1.48252 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=24.9552 eta=1.48252 nValidPix=5 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=37.2401 eta=1.51134 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=37.2343 eta=1.51134 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=45.16 eta=-0.470222 nValidPix=3 nMissingInner=1 nMissingOuter=6
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=45.1607 eta=-0.470222 nValidPix=3 nMissingInner=0 nMissingOuter=6
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=INACTIVE det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=36.6311 eta=-1.06468 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=36.6311 eta=-1.06468 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=4
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=42.6683 eta=0.553832 nValidPix=2 nMissingInner=2 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[REFIT] category=MISSING_INNER_HITS pos=1 type=MISSING det=PixelBarrel layer=2
+[STORED] track[0] pt=42.6627 eta=0.553835 nValidPix=2 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=45.3458 eta=-1.51673 nValidPix=3 nMissingInner=0 nMissingOuter=1
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=1
+[STORED] track[0] pt=45.3468 eta=-1.51673 nValidPix=3 nMissingInner=0 nMissingOuter=1
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=142.697 eta=0.0791933 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=142.699 eta=0.0791933 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=41.4086 eta=1.48401 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=41.4081 eta=1.48401 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=28.5227 eta=-1.77604 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=28.5226 eta=-1.77604 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=3 type=INACTIVE det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=11.1908 eta=1.52533 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=11.1908 eta=1.52533 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=40.0279 eta=-1.58777 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=40.0281 eta=-1.58777 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=30.8432 eta=-0.411431 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=30.8432 eta=-0.411431 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=27.4126 eta=-1.24953 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=27.4319 eta=-1.24961 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=27.8739 eta=0.314593 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+[STORED] track[0] pt=27.8749 eta=0.314597 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelBarrel layer=4
+-------------------------
+[REFIT] track[0] pt=16.0843 eta=1.55712 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=16.0844 eta=1.55712 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=39.2514 eta=1.50952 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+[STORED] track[0] pt=39.2513 eta=1.50952 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=1
+-------------------------
+[REFIT] track[0] pt=4.07225 eta=1.65991 nValidPix=3 nMissingInner=1 nMissingOuter=4
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+[STORED] track[0] pt=3.42714 eta=1.65996 nValidPix=3 nMissingInner=1 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=MISSING_INNER_HITS pos=0 type=MISSING det=PixelBarrel layer=1
+-------------------------
+[REFIT] track[0] pt=52.9635 eta=-1.61851 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] track[0] pt=52.9629 eta=-1.61851 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+-------------------------
+[REFIT] track[0] pt=47.6802 eta=1.30848 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=47.684 eta=1.30847 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
+[REFIT] track[0] pt=26.1114 eta=-1.94813 nValidPix=7 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[REFIT] category=TRACK_HITS pos=6 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=26.1117 eta=-1.94813 nValidPix=7 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] category=TRACK_HITS pos=6 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=2.77491 eta=-1.9982 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=2.77491 eta=-1.9982 nValidPix=6 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=5 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=34.2557 eta=1.91776 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=INACTIVE det=PixelEndcap layer=1
+[REFIT] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[REFIT] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+[STORED] track[0] pt=34.2553 eta=1.91776 nValidPix=4 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=INACTIVE det=PixelEndcap layer=1
+[STORED] category=TRACK_HITS pos=3 type=VALID det=PixelEndcap layer=2
+[STORED] category=TRACK_HITS pos=4 type=VALID det=PixelEndcap layer=3
+-------------------------
+[REFIT] track[0] pt=34.8155 eta=1.39814 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[REFIT] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[REFIT] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[REFIT] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+[STORED] track[0] pt=34.812 eta=1.39819 nValidPix=3 nMissingInner=0 nMissingOuter=0
+[STORED] category=TRACK_HITS pos=0 type=VALID det=PixelBarrel layer=1
+[STORED] category=TRACK_HITS pos=1 type=VALID det=PixelBarrel layer=2
+[STORED] category=TRACK_HITS pos=2 type=VALID det=PixelBarrel layer=3
+-------------------------
