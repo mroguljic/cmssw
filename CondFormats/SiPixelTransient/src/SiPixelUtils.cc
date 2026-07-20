@@ -37,7 +37,7 @@ namespace siPixelUtils {
     //--- The case of only one pixel in this projection is separate.  Note that
     //--- here first_pix == last_pix, so the average of the two is still the
     //--- center of the pixel.
-    if (size == 1) {
+    if (size == 1 && algflag!=1) {
       return geom_center;
     }
 
