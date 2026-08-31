@@ -127,6 +127,19 @@ fatJetTable = simplePATJetFlatTableProducer.clone(
     )
 )
 
+
+GLOBALPART3_N_HIDNEURONS = 256
+def _addGlobalParT3HidNeurons(variables, nNeurons=GLOBALPART3_N_HIDNEURONS):
+    for i in range(nNeurons):
+        neuron = 'hidNeuron%03d' % i
+        setattr(variables, 'globalParT3_' + neuron,
+                Var("bDiscriminator('pfGlobalParticleTransformerAK8JetTags:%s')" % neuron, float,
+                    doc="GlobalParT-3 hidden neuron %d (jet foundation model)" % i,
+                    precision=10))
+
+_addGlobalParT3HidNeurons(fatJetTable.variables)
+
+
 ##############################################################
 ## DeepInfoAK8:Start
 ## - To be used in nanoAOD_customizeCommon() in nano_cff.py
