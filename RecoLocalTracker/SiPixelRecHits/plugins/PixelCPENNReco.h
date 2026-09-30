@@ -1,0 +1,73 @@
+#ifndef RecoLocalTracker_SiPixelRecHits_plugins_PixelCPENNReco_h
+#define RecoLocalTracker_SiPixelRecHits_plugins_PixelCPENNReco_h
+
+#include "RecoLocalTracker/SiPixelRecHits/interface/PixelCPEGeneric.h"
+#include "CondFormats/SiPixelTransient/interface/SiPixelTemplateDefs.h"
+#include "PhysicsTools/TensorFlow/interface/TensorFlow.h"
+
+#include <string>
+#include <vector>
+
+class MagneticField;
+
+// NN-based CPE for BPIX. FPIX hits, hits without track angles and hits for which
+// the NN inference fails fall back to PixelCPEGeneric.
+class PixelCPENNReco : public PixelCPEGeneric {
+public:
+  PixelCPENNReco(edm::ParameterSet const &conf,
+                 const MagneticField *,
+                 const TrackerGeometry &,
+                 const TrackerTopology &,
+                 const SiPixelLorentzAngle *,
+                 const SiPixelGenErrorDBObject *,
+                 const SiPixelLorentzAngle *,
+                 std::vector<const tensorflow::Session *>,
+                 std::vector<const tensorflow::Session *>);
+
+  ~PixelCPENNReco() override = default;
+
+  static void fillPSetDescription(edm::ParameterSetDescription &desc);
+
+private:
+  struct ClusterParamNN : ClusterParamGeneric {
+    explicit ClusterParamNN(const SiPixelCluster &cluster) : ClusterParamGeneric(cluster) {}
+    float NNXrec_ = 0.f;
+    float NNYrec_ = 0.f;
+    float NNSigmaX_ = 0.f;
+    float NNSigmaY_ = 0.f;
+    bool useGeneric_ = false;
+  };
+  std::unique_ptr<ClusterParam> createClusterParam(const SiPixelCluster &cl) const override;
+
+  LocalPoint localPosition(DetParam const &theDetParam, ClusterParam &theClusterParam) const override;
+  LocalError localError(DetParam const &theDetParam, ClusterParam &theClusterParam) const override;
+
+  bool isWideRow(int absRow) const;
+  bool isWideCol(int absCol) const;
+  bool isWidePixel(int absRow, int absCol) const;
+  int PixelPreprocess(const SiPixelCluster &cluster,
+                      const PixelTopology &topol,
+                      float (&Cluster_raw)[TXSIZE][TYSIZE],
+                      float (&Cluster_xRaw)[TXSIZE],
+                      float (&Cluster_yRaw)[TYSIZE],
+                      float (&Cluster)[TXSIZE][TYSIZE],
+                      float (&Cluster_x)[TXSIZE],
+                      float (&Cluster_y)[TYSIZE],
+                      float &Cluster_charge,
+                      int &Cluster_size,
+                      int &Cluster_sizeX,
+                      int &Cluster_sizeY,
+                      float &ClusterCenter_x,
+                      float &ClusterCenter_y,
+                      int &Row_offset,
+                      int &Col_offset) const;
+
+  std::string inputTensorName_x, inputTensorName_y, anglesTensorName_x, anglesTensorName_y, cchargeTensorName_x,
+      cchargeTensorName_y;
+  std::string outputTensorName_x, outputTensorName_y;
+
+  std::vector<const tensorflow::Session *> session_x_vec;
+  std::vector<const tensorflow::Session *> session_y_vec;
+};
+
+#endif

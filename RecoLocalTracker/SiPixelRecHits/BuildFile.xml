@@ -12,7 +12,6 @@
 <use name="HeterogeneousCore/AlpakaCore"/>
 <use name="RecoLocalTracker/ClusterParameterEstimator"/>
 <flags ALPAKA_BACKENDS="1"/>
-<use name="PhysicsTools/TensorFlow"/>
 <export>
   <lib name="1"/>
 </export>
